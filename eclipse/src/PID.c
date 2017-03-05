@@ -11,19 +11,8 @@
  *
  * */
 
-#define F8 double	// Define Floating point 8 bytes
+#include "PID.h"
 
-typedef struct SPid_TAG
-{
-	F8 dState;		// Last position input
-	F8 iState;		// Integral state
-	F8 iMax;		// Maximum allowable integrator state
-	F8 iMin;		// Minimum allowable integrator state
-	F8 iGain;		// integrator gain
-	F8 pGain;		// proportional gain
-	F8 dGain;		// derivative gain
-
-}SPid;
 
 F8 UpdatePID(SPid* pid, F8 error, F8 position)
 {
