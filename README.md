@@ -18,6 +18,8 @@ IMU Module
 https://www.arduinoall.com/product/34/gy-521-imu-3-axis-accelerometer-gyro-module-mpu6050
 
 
+https://en.wikipedia.org/wiki/Inverted_pendulum
+
 wheel encoder:   http://www.mindspring.com/~tom2000/Delphi/Codewheel.html
 Kalman filter:   http://en.wikipedia.org/wiki/Kalman_filter
 PID conrol:      http://en.wikipedia.org/wiki/PID_controller
